@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -16,17 +17,25 @@ export default function Main() {
                     </p>
                     <div className="flex items-center justify-between max-w-[330px] m-auto p-4">
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <FaLinkedinIn />
+                            <a href="https://www.linkedin.com/in/velizar-ganchev-29311621b/">
+                                <FaLinkedinIn />
+                            </a>
                         </div>
                         <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <FaGithub />
+                            <a href="https://github.com/velizarganchev">
+                                <FaGithub />
+                            </a>
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <AiOutlineMail />
-                        </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <BsPersonLinesFill />
-                        </div>
+                        <Link href="/#contact">
+                            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <AiOutlineMail />
+                            </div>
+                        </Link>
+                        <Link href="/resume">
+                            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <BsPersonLinesFill />
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ export default function Contact() {
                                 <p className='uppercase pt-8'>Connect With Me</p>
                                 <div className='flex items-center justify-between py-4'>
                                     <a
-                                        href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                                        href='https://www.linkedin.com/in/velizar-ganchev-29311621b/'
                                         target='_blank'
                                         rel='noreferrer'
                                     >
@@ -46,7 +46,7 @@ export default function Contact() {
                                         </div>
                                     </a>
                                     <a
-                                        href='https://github.com/fireclint'
+                                        href='https://github.com/velizarganchev'
                                         target='_blank'
                                         rel='noreferrer'
                                     >

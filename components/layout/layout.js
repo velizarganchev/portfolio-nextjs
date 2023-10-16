@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "./navbar/navbar";
+import Navbar from "./navbar";
 
 export default function Layout({ children, title = 'Velizar | Web Developer' }) {
     return (
